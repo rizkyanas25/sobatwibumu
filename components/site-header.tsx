@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { ArrowUpRight, ArrowDownRight } from 'lucide-react';
+import { trackEvent } from '@/lib/gtag';
 import type { Profile } from '@/data/content';
 
 type SiteHeaderProps = {
@@ -76,6 +77,11 @@ export function SiteHeader({ profile }: SiteHeaderProps) {
             href={profile.portfolioUrl}
             target='_blank'
             rel='noreferrer'
+            onClick={() =>
+              trackEvent('click_lihat_portfolio', {
+                link_url: profile.portfolioUrl,
+              })
+            }
             className='mt-4 inline-flex w-full items-center justify-center gap-2 rounded-full border border-white/10 bg-white/[0.08] px-4 py-3 text-sm font-medium text-white/90 backdrop-blur-sm'
           >
             <span>Lihat Portfolio</span>
@@ -87,7 +93,10 @@ export function SiteHeader({ profile }: SiteHeaderProps) {
       <div className='mt-4 flex flex-col gap-3 lg:hidden'>
         <a
           href='#playlist'
-          onClick={(e) => scrollTo(e, 'playlist')}
+          onClick={(e) => {
+            scrollTo(e, 'playlist');
+            trackEvent('click_lihat_playlist');
+          }}
           className='inline-flex w-full items-center justify-center gap-2 rounded-full border border-white/10 bg-white/5 py-3 text-sm font-medium text-white/80 transition-colors hover:bg-white/10'
         >
           Lihat Playlist
@@ -95,7 +104,10 @@ export function SiteHeader({ profile }: SiteHeaderProps) {
         </a>
         <a
           href='#racun'
-          onClick={(e) => scrollTo(e, 'racun')}
+          onClick={(e) => {
+            scrollTo(e, 'racun');
+            trackEvent('click_lihat_racun');
+          }}
           className='inline-flex w-full items-center justify-center gap-2 rounded-full border border-white/10 bg-white/5 py-3 text-sm font-medium text-white/80 transition-colors hover:bg-white/10'
         >
           Lihat Racun

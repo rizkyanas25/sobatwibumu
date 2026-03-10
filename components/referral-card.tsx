@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
+import { trackEvent } from '@/lib/gtag';
 import type { ReferralItem } from '@/data/content';
 
 type ReferralCardProps = {
@@ -27,6 +28,12 @@ export function ReferralCard({ item }: ReferralCardProps) {
       href={item.url}
       target='_blank'
       rel='noreferrer'
+      onClick={() =>
+        trackEvent('click_cek_racun', {
+          product_name: item.title,
+          link_url: item.url,
+        })
+      }
       whileHover={{ y: -6, scale: 1.01 }}
       whileTap={{ scale: 0.99 }}
       transition={{ duration: 0.22, ease: 'easeOut' }}
