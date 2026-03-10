@@ -9,7 +9,7 @@
 
 **Kerja demi nafkah, wibu demi jiwa. Mungkin jadi temen wibumu yang paling relate.**
 
-[Live Demo](#) • [Contact](#contact)
+[Live Demo](https://sobatwibumu.vercel.app/) • [Contact](#contact)
 
 </div>
 
