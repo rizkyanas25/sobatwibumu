@@ -1,0 +1,32 @@
+<svg width="360" height="360" viewBox="0 0 360 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="avatar_bg" x1="52" y1="42" x2="308" y2="322" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171717"/>
+      <stop offset="1" stop-color="#0A0A0A"/>
+    </linearGradient>
+    <radialGradient id="avatar_glow_red" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(264 78) rotate(90) scale(136 120)">
+      <stop stop-color="#FA243C" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#FA243C" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="avatar_glow_blue" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(92 284) rotate(90) scale(148 128)">
+      <stop stop-color="#38BDF8" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="360" height="360" rx="92" fill="url(#avatar_bg)"/>
+  <rect width="360" height="360" rx="92" fill="url(#avatar_glow_red)"/>
+  <rect width="360" height="360" rx="92" fill="url(#avatar_glow_blue)"/>
+  <circle cx="180" cy="180" r="145" fill="#111213" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+  <circle cx="180" cy="140" r="62" fill="#E7E5E4"/>
+  <path d="M130 288C140 244 170 218 180 218C190 218 220 244 230 288" fill="#E7E5E4"/>
+  <path d="M118 286C128 246 154 220 180 220C206 220 232 246 242 286L218 304C206 310 194 314 180 314C166 314 154 310 142 304L118 286Z" fill="#2B2D31"/>
+  <path d="M124 130C138 90 168 74 194 80C216 84 234 100 240 126C230 118 216 114 204 114H152C142 114 132 120 124 130Z" fill="#1B1C1F"/>
+  <rect x="126" y="128" width="108" height="22" rx="11" fill="#0F172A"/>
+  <rect x="120" y="136" width="14" height="54" rx="7" fill="#0F172A"/>
+  <rect x="226" y="136" width="14" height="54" rx="7" fill="#0F172A"/>
+  <circle cx="156" cy="154" r="11" fill="#FA243C"/>
+  <circle cx="204" cy="154" r="11" fill="#1DB954"/>
+  <path d="M160 180C168 186 192 186 200 180" stroke="#1F2937" stroke-width="6" stroke-linecap="round"/>
+  <rect x="134" y="236" width="92" height="20" rx="10" fill="#0F172A"/>
+</svg>
+

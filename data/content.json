@@ -1,0 +1,92 @@
+{
+  "profile": {
+    "name": "Sobat Wibu Mu",
+    "bio": "Kerja demi nafkah, wibu demi jiwa. 👨‍💻🎧\nMungkin jadi temen wibumu yang paling relate.",
+    "location": "East Blue",
+    "avatar": "/nyunk.jpeg",
+    "portfolioUrl": "https://nyunk-dev.vercel.app/",
+    "portfolioPrompt": "Mode serius?",
+    "portfolioDescription": "Kalau mau lihat sisi serius sebagai tukang ketik, silahkan mampir."
+  },
+  "playlistPreview": [
+    "Renacer Serenade — Momoiro Clover Z",
+    "ROAR — ulma sound junction",
+    "Picaresque Hero — ano",
+    "AIZO — King Gnu",
+    "NEW DAWN — coldrain",
+    "Kill the Noise — SPYAIR",
+    "Flyers — BRADIO",
+    "Mukanjyo — Survive Said The Prophet"
+  ],
+  "links": [
+    {
+      "label": "Anisongs",
+      "url": "https://music.apple.com/id/playlist/anisongs/pl.u-ZmblxbmsV19eKaj",
+      "type": "apple-music",
+      "eyebrow": "Apple Music",
+      "description": "Satu playlist yang sama. Mau dipake commute, ngoding, nyetir, atau sekadar recharge, tinggal play aja."
+    },
+    {
+      "label": "Anisongs",
+      "url": "https://open.spotify.com/playlist/5PTu1Hm8TvHhRKKBp1NAE1?si=zXFw79ZmSSO72PqmbHuPug&pi=QsIztl0ATX2Ed",
+      "type": "spotify",
+      "eyebrow": "Spotify",
+      "description": "Satu playlist yang sama. Mau dipake commute, ngoding, nyetir, atau sekadar recharge, tinggal play aja."
+    }
+  ],
+  "referralsSection": {
+    "eyebrow": "Yang Racun Yang Racun",
+    "title": "Barang yang lagi stay di rotation, bukan cuma numpang lewat",
+    "description": "Yang lagi kepakai atau minimal lagi bikin pengen checkout."
+  },
+  "referrals": [
+    {
+      "id": 1,
+      "category": "Setup",
+      "title": "MacBook Air M3 Midnight",
+      "desc": "Mesin utama buat ngoding, nulis, dan ngedit konten tanpa drama.",
+      "image": "/referrals/setup-rig.svg",
+      "url": "https://www.apple.com/macbook-air/"
+    },
+    {
+      "id": 2,
+      "category": "Setup",
+      "title": "Flydigi/Fantech Controller",
+      "desc": "Grip enak buat grinding lama pas butuh switch dari kerja ke mode santai.",
+      "image": "/referrals/gaming-controller.svg",
+      "url": "https://www.flydigi.com/"
+    },
+    {
+      "id": 3,
+      "category": "Setup",
+      "title": "Philips Monitor",
+      "desc": "Layar utama buat kerja, review visual, dan sesekali maraton trailer.",
+      "image": "/referrals/setup-rig.svg",
+      "url": "https://www.philips.co.id/"
+    },
+    {
+      "id": 4,
+      "category": "Toys",
+      "title": "Collector Figure Display",
+      "desc": "Pajangan yang bikin sudut kerja punya karakter tanpa terasa penuh.",
+      "image": "/referrals/merch-shelf.svg",
+      "url": "https://store.crunchyroll.com/collections/figures/"
+    },
+    {
+      "id": 5,
+      "category": "Setup",
+      "title": "Wireless Mechanical Keyboard",
+      "desc": "Typing feel yang bikin ngetik panjang tetap enak dan satisfying.",
+      "image": "/referrals/setup-rig.svg",
+      "url": "https://www.keychron.com/"
+    },
+    {
+      "id": 6,
+      "category": "Merch",
+      "title": "Illustrated Desk Mat",
+      "desc": "Biar meja tetap rapi, nyaman, dan masih punya sentuhan personal.",
+      "image": "/referrals/merch-shelf.svg",
+      "url": "https://www.keychron.com/collections/desk-mat"
+    }
+  ]
+}
